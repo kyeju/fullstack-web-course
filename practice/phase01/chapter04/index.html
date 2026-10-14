@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 상단 제목 영역 (STEP 03) -->
+    <header>
+        <h1>회원 관리</h1>
+    </header>
+
+    <!-- 회원 목록 (STEP 04) -->
+    <section class="member-card">
+        <h2>회원 목록</h2>
+        <ul>
+            <li>홍길동 - gildong@example.com</li>
+            <li>김철수 - chulsoo@example.com</li>
+            <li>이영희 - younghee@example.com</li>
+        </ul>
+    </section>
+
+    <!-- 회원 등록 (STEP 04, STEP 06) -->
+    <section class="member-card">
+        <h2>회원 등록</h2>
+        <form id="signup-form">
+            <p>
+                <label for="name">이름</label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="email">이메일</label>
+                <input type="email" id="email" name="email">
+            </p>
+            <button class="primary-button" type="submit">회원 등록</button>
+        </form>
+    </section>
+
+    <!-- STEP 08. 우선순위 실험 -->
+    <p id="important-message" class="notice">회원 정보는 정확히 입력하세요.</p>
+</body>
+
+</html>

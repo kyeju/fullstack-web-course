@@ -1,0 +1,53 @@
+/* STEP 02. 페이지 전체 기본 스타일 */
+body {
+    font-family: Arial, sans-serif; /* 글꼴 */
+    color: #334155;                 /* 글자색: 진한 회청색 */
+    background-color: #f8fafc;      /* 배경색: 아주 옅은 회색 */
+}
+
+
+/* STEP 03. 상단 header 영역 */
+header {
+    background-color: #1e293b; /* 배경: 어두운 남색 */
+    color: white;              /* 글자: 흰색 */
+    text-align: center;        /* 글자 가운데 정렬 */
+}
+
+
+/* STEP 04. 클래스 선택자로 영역 구분 */
+.member-card {
+    background-color: white;
+}
+
+/* STEP 05. 제목별 스타일 */
+h1 {
+    font-size: 32px;   /* 글자 크기 */
+}
+
+h2 {
+    color: #0f766e;    /* 청록색 */
+}
+
+/* STEP 06. 아이디 선택자: 특정 폼 하나 */
+#signup-form {
+    background-color: #ecfeff;   /* 아주 연한 하늘색 */
+}
+
+/* STEP 06. 클래스 선택자: 재사용할 버튼 스타일 */
+.primary-button {
+    background-color: #0f766e;   /* 청록색 */
+    color: white;
+}
+
+/* STEP 08. 우선순위 실험: 태그 < 클래스 < 아이디 */
+p {
+    color: blue;
+}
+
+.notice {
+    color: green;
+}
+
+#important-message {
+    color: red;
+}
